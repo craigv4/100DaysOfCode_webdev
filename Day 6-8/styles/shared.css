@@ -9,12 +9,16 @@ img {
   width: auto;
   height: 300px;
 }
+
+#text {
+  margin: 0 auto;
+}
+
 h1 {
   color: rgb(22, 24, 124);
   font-size: 32px;
 }
 p {
-
   color: rgb(208, 76, 81);
   font-size: 18px;
 }
