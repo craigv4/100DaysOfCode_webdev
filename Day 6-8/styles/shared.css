@@ -5,9 +5,21 @@ body {
   margin-top: 50px;
 }
 
+main {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 150px 50vh;
+  background-color: rgb(3, 18, 85);
+  box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
+}
+
 img {
   width: auto;
-  height: 300px;
+  height: 200px;
+  margin-top: -80px;
+  border-radius: 150px;
+  border: 3px solid rgb(239, 222, 199);
+  clip-path: circle(50% at 50% 50%);
 }
 
 #text {
@@ -15,8 +27,8 @@ img {
 }
 
 h1 {
-  color: rgb(22, 24, 124);
-  font-size: 32px;
+  color: rgb(239, 222, 199);
+  font-size: 38px;
 }
 p {
   color: rgb(208, 76, 81);
@@ -24,16 +36,18 @@ p {
 }
 
 #last {
-  color: rgb(95, 4, 115);
-  font-size: 48px;
+  color: rgb(208, 76, 81);
+  font-size: 30px;
   font-weight: bold;
+  padding: 30px;
+  margin: 0;
 }
 a {
   color: rgb(124, 42, 19);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 a:hover {
-  color: rgb(54, 24, 188);
+  color: rgb(239, 222, 199);
   text-decoration: underline;
 }
