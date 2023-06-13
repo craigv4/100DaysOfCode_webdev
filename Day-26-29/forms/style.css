@@ -1,0 +1,69 @@
+html {
+	--black-color: rgb(20, 19, 19);
+	--white-color: #fff;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(20, 19, 19);
+margin: 2rem auto;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form h2 {
+margin-top: 0;
+}
+form {
+	background-color: #e6e6e6;
+	border-radius: 1em;
+	box-sizing: border-box;
+	width: 40rem;
+	padding: 2rem;
+}
+label {
+	font-size: 1.2em;
+}
+input,
+textarea,
+select {
+	width: 100%;
+	margin: 0.4rem auto;
+	font: inherit;
+	color: var(--white-color);
+	background-color: var(--black-color);
+	padding: 0.4rem;
+	border-radius: 0.4rem;
+}
+input:focus,
+textarea:focus {
+	background-color: var(--white-color);
+	color: var(--black-color);
+}
+form h3{
+	margin: 0.2rem auto;
+}
+button {
+	display: block;
+	font: inherit;
+	background-color: var(--white-color);
+	color: var(--black-color);
+	padding: 0.4rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	margin: 0.2rem;
+}
+button:hover {
+	background-color: var(--black-color);
+	color: var(--white-color);
+	box-shadow: 0.2rem 0.2rem 0.5rem #800080;
+}
+#verify-method {
+	margin: 1rem auto;
+}
+.verify-radio input {
+	width: auto;
+}
+.verify-radio label {
+	font-size: 1rem;
+}

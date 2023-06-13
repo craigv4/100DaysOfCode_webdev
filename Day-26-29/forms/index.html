@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Forms</title>
+	</head>
+	<body>
+		<form action="/" method="get">
+			<h2> About Form</h2>
+			<label for="username">Name</label>
+			<input type="text" name="name-of-user" id="username" />
+			<label for="about-user">Write something about yourself</label>
+			<textarea name="about-user" id="about-user"></textarea>
+			<label for="email-id">Email</label>
+			<input type="email" name="email" id="email-id" />
+			<label for="user-age"> Age</label>
+			<input type="number" name="age" id="user-age" />
+			<label for="user-password">Password</label>
+			<input type="password" name="password" id="user-password" />
+			<label for="user-birth-date">Birthday</label>
+			<input type="date" name="birthday" id="user-birth-date" />
+			<hr />
+			<select name="fav-color" id="fav-color">
+				<option value="red">red</option>
+				<option value="green">green</option>
+				<option value="blue">blue</option>
+			</select>
+			<h3>Please select Verification Method</h3>
+			<div id="verify-method">
+				<div class="verify-radio">
+					<input type="radio" name="verify-method" id="verify-text" value="verification-text" />
+					<label for="verify-text">Text (SMS)</label>
+				</div>
+				<div class="verify-radio">
+					<input type="radio" name="verify-method" id="verify-email" value="verification-email" />
+					<label for="verify-email">Email ID</label>
+				</div>
+				<div class="verify-radio">
+					<input type="radio" name="verify-method" id="verify-call" value="verification-Call" />
+					<label for="verify-call">Phone Call</label>
+				</div>
+			</div>
+			<hr />
+			<div class="verify-radio">
+				<input type="checkbox" name="terms-of-use" id="terms" />
+				<label for="terms">I agree with Terms of use. </label>
+			</div>
+			<div class="verify-radio">
+				<input type="checkbox" name="contact-via-phone" id="contact-phone" value="contact-phone" />
+				<label for="contact-phone">Contact via Phone</label>
+			</div>
+			<div class="verify-radio">
+				<input type="checkbox" name="contact-via-email" id="contact-email" value="contact-email" />
+				<label for="contact-email">Contact via Email</label>
+			</div>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</form>
+	</body>
+</html>
