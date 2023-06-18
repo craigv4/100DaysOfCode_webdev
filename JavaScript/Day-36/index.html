@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Letter Counting App Demo</title>
+		<script src="./app.js" defer></script>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<main>
+			<form action="">
+				<div>
+					<label for="input-text">Tell us about you</label>
+					<input type="text" maxlength="60" id="input-text" placeholder="type here .." spellcheck="true" />
+				</div>
+				<div class="span-class">
+					<div>
+						<span id="span-text">Remaining Letters</span>
+						<span id="remainder">60</span>
+
+						<span id="maxAllowed">/ 60</span>
+					</div>
+					<div class="btn">
+						<button>Submit</button>
+					</div>
+				</div>
+			</form>
+		</main>
+	</body>
+</html>
