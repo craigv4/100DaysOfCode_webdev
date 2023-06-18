@@ -1,14 +1,14 @@
-let inputText = document.querySelector("input");
-let remainderCount = document.getElementById("remainder");
+const inputText = document.querySelector("input");
+const remainderCount = document.getElementById("remainder");
 
 let newCountFunction = function functionA(event) {
-	let enteredText = event.target.value;
+	const enteredText = event.target.value;
 
-	let enteredTextLength = enteredText.length;
+	const enteredTextLength = enteredText.length;
 
-	let remainderChar = inputText.maxLength - enteredTextLength;
+	const remainderChar = inputText.maxLength - enteredTextLength;
 
 	remainderCount.textContent = remainderChar;
-};
+	};
 
-let wordCount = inputText.addEventListener("input", newCountFunction);
+inputText.addEventListener("input", newCountFunction);

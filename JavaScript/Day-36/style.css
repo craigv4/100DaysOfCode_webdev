@@ -25,10 +25,10 @@ form {
 
 input {
 	display: block;
-	width: 45vw;
-	height: 20vh;
+	width: 65ch;
+	height: 10ch;
 	margin: 3rem 0;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	padding: 0.8rem;
 	border-radius: 1rem;
 	background-color: #dadada;
@@ -36,7 +36,7 @@ input {
 }
 
 label {
-	font-size: 3.6rem;
+	font-size: 3rem;
 }
 
 .btn {
@@ -58,12 +58,18 @@ button {
 	color: #dadada;
 	border: transparent;
 	cursor: pointer;
+	font-weight: bold;
 }
 button:hover {
 	background-color: #dadada;
 	color: rebeccapurple;
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 span {
 	font-size: 1.4rem;
+}
+
+warning{
+	background-color: #f0a0a0;
 }
