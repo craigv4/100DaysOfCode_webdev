@@ -20,9 +20,8 @@ function onClick() {
 }
 
 function onSecondClick(event) {
-  // console.dir(document.body.children[2].children[6]);
-  console.dir(event.target);
-
+	// console.dir(document.body.children[2].children[6]);
+	console.dir(event.target);
 }
 
 firstButton.addEventListener("click", onClick);
