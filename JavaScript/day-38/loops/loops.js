@@ -40,4 +40,3 @@ while (!confirmExit) {
 }
 
 console.log("done");
-		
