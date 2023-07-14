@@ -1,0 +1,8 @@
+#carouselExampleFade {
+	margin: 2rem auto;
+}
+
+#carouselExampleFade img {
+	object-fit: cover;
+	height: 38rem;
+}

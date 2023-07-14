@@ -40,3 +40,11 @@ while (!confirmExit) {
 }
 
 console.log("done");
+
+
+
+// Day 52 of #100DaysOfCode #webdevelopment
+
+// ✔ Introduction to Backend
+// ✔ Storing user data
+// ✔ validating user auth with backend code
